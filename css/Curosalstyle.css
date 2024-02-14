@@ -49,7 +49,7 @@
   grid-auto-columns: calc((100% / 3) - 12px);
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  gap: 26px;
+  gap: 30px;
   border-radius: 8px;
   scroll-behavior: smooth;
   scrollbar-width: none;
