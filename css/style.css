@@ -35,9 +35,32 @@ body {
   /* align-items: center;
   align-content: center; */
 }
-.latestEventImg img {
-  height: 60rem;
+.latestEventCont{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  /* background-color: rgba(0, 0, 0, 0); */
+  background-color: rgba(245, 245, 245, 0.897);
+  padding: 1.3rem 1rem;
+  border-radius: 16px;
+  margin: 1.3rem 0 ;
+  z-index: 2;
+}
+
+.latestEventCont img{
+  margin: 0.2rem 0.2rem 0.2 1.2rem ;
+  object-fit: contain;
+  border-radius: 10px 10px 0 0 ;
+  height: 55rem;
   box-shadow: 0 1px 1px rgba(0,0,0,0.08), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.16), 0 8px 8px rgba(0,0,0,0.20);
+}
+.latestEventCont h3{
+   text-align: center;
+   margin: 1rem;
+   font-weight: bolder;
+   color: #333;
 }
 .sliderCurosalHeading h2 {
   margin: 0 !important;
@@ -247,7 +270,8 @@ h1, h2,h3, h4, h5, h6, figure {
   }
 
   .latestEventImg img {
-     margin: 1.2rem 1rem ; 
+     /* margin: 1.2rem 1rem ;  */
+     margin-bottom:1rem ;
      height: 57vh;
   
   
