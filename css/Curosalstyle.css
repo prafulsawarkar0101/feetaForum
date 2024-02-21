@@ -110,7 +110,7 @@
 @media screen and (max-width: 900px) {
   .myColrosal {
     /* min-height: 0vh !important; */
-    height: 60vh !important;
+    height: 65vh !important;
   }
   .carousel .card {
     scroll-snap-align: center !important;
